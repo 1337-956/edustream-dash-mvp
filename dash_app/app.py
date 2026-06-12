@@ -1,10 +1,9 @@
-import os
-import pandas as pd
-import dash
-from dash import dcc, html, Input, Output
-import dash_bootstrap_components as dbc
-import plotly.express as px
-from sqlalchemy import create_engine
+pandas>=2.0.0
+dash>=2.11.0
+dash-bootstrap-components>=1.4.0
+plotly>=5.15.0
+SQLAlchemy>=2.0.0
+psycopg2-binary>=2.9.0
 
 # =====================================================================
 # 1. HYBRID DATABASE REGISTRATION LAYER (PostgreSQL + CSV Fallback)
